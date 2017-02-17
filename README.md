@@ -1,4 +1,4 @@
-# rnn_sentiment
+# lstm_sentiment
 ####description
 This project is a pure LSTM demo using just python without the third nueral network! <br>
 It's just used for studing the LSTM, so maybe not so efficiency.<br>
