@@ -43,8 +43,8 @@ def evalute_data(lstm, word2vec, test_datas, state_init):
             acc += 1
         if label == 1 and prop[1] > prop[0]:
             acc += 1
-    print 'loss:', loss
-    print 'acc:', acc * 1.0 / len(test_x_labels)
+    print 'evaluate test_data loss:', loss * 1.0 / len(test_x_labels)
+    print 'evaluate test_data acc:', acc * 1.0 / len(test_x_labels)
 
 
 
