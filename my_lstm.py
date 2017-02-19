@@ -1,3 +1,9 @@
+#encoding: utf-8
+'''
+@author: huangjin (Jeff)
+@email: hj51yc@gmail.com
+Using one LSTM layer, one sum pooling layer, and one output layer
+'''
 
 import sys, os
 import numpy as np
